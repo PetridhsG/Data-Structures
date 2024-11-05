@@ -1,3 +1,4 @@
+# LRU Cache
 
 For the implementation of the LRUCache, the following data structures were used: Queue and HashTable. The Queue stores elements in a way that the element with the longest elapsed time is always at the beginning of the queue. This implements the LRU (Least Recently Used) functionality of the Cache. When you want to store a new element and the cache is full, the element at the beginning of the queue is removed, and the new element is added to the end of the queue.
 
